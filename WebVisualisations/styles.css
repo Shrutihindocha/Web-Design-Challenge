@@ -1,5 +1,5 @@
-/* .font-customised {
-    font-family: 'Times New Roman', Times, serif;
+.font-customised {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 28px;
     color: rgb(255, 255, 255);
@@ -8,19 +8,26 @@
 }
 
 .h1 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-    padding: 32px;
+    font-size: 30px;
+    padding: 0px;
     color: rgb(44, 201, 185)
 }
 
 .h2 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-    padding: 12px;
+    font-size: 24px;
+    padding: 0px;
     color: rgb(44, 201, 185)
+}
+
+.h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
 }
 
 .gray-background {
     background-color: gray;
-} */
+}

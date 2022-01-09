@@ -23,23 +23,31 @@
 
 </head>
 
-<body>
+<body style="background-color: #e8e8e8;">
   <!-- navbar -->
   <div data-include ="navbar"></div>
-  
+  <br>
+  <br>
   <div class="container">
-    <div class="row justify-content-center">
+    <div class="row">
       <!-- RHS -->
-      <div class="col-4">
-        <h1 class="h1">Summary: Latitude vs Temperature</h1>
-            <hr>
-            <img src="Resources/assets/images/Fig1.png" alt="Graph" class="rounded float-start" height="500" width ="500">
-            
-            <p>As expected, the weather becomes warmer as one approaches the equator (0deg Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of the year than the northern hemisphere. This may be due to the tilt of the earth at this time of the year this data was gathered </p>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pad top bg-white align-content-center">
+          <br>
+          <h1 class="h1">Summary: Latitude vs Temperature</h1>
+          <hr>
+          <img src="Resources/assets/images/Fig1.png" alt="Graph" class="rounded float-start" style="width: 100%">
+          <div class="row">
+          <span>As expected, the weather becomes warmer as one approaches the equator (0deg Latitude). 
+            More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of the year than the northern hemisphere. 
+            This may be due to the tilt of the earth at this time of the year this data was gathered </span>
+          </div>
+      </div>
+
+      <div class="col-md-1"> <br>
       </div>
 
       <!-- linking visualisations page (LHS) -->
-      <div data-include ="visualisations" class="col-4"></div>
+      <div class="col-md-4 pad top bg-white" data-include ="visualisations" ></div>
 
     </div>
   </div>
@@ -49,3 +57,4 @@
 </body>
 
 </html>
+
