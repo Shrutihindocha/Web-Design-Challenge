@@ -17,3 +17,4 @@ The website consists of 7 pages total, including:
   
 
 The website has been deployed to GitHub pages.
+https://shrutihindocha.github.io/Web-Design-Challenge/
